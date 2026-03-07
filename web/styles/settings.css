@@ -1012,7 +1012,6 @@ input[type="checkbox"] {
     }
 }
 
-.add-new-linkifier-box,
 .add-new-playground-box {
     & button {
         margin-left: calc(10em + 20px) !important;
@@ -2182,9 +2181,7 @@ label.preferences-radio-choice-label {
         width: calc(100% - 20px) !important;
     }
 
-    #linkifier-settings .new-linkifier-form label,
-    #playground-settings .new-playground-form label,
-    #profile-field-settings .new-profile-field-form label {
+    #playground-settings .new-playground-form label {
         display: block;
         width: 120px;
         padding: 0;
