@@ -237,14 +237,6 @@ h3,
     }
 }
 
-#playground-settings {
-    #playground_pygments_language,
-    #playground_name,
-    #playground_url_template {
-        width: calc(100% - 10em - 6em);
-    }
-}
-
 #language_selection_modal {
     & table {
         width: 90%;
@@ -1014,7 +1006,7 @@ input[type="checkbox"] {
 
 .add-new-playground-box {
     & button {
-        margin-left: calc(10em + 20px) !important;
+        margin-left: calc(10em + 20px);
     }
     margin-bottom: 15px;
 
@@ -2213,6 +2205,19 @@ label.preferences-radio-choice-label {
         .profile_field_name,
         .profile_field_hint {
             min-width: 8em;
+        }
+    }
+
+    .add-new-playground-box {
+        .settings_text_input {
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .action-button {
+            margin-left: 0;
+            width: 100%;
+            box-sizing: border-box;
         }
     }
 }
